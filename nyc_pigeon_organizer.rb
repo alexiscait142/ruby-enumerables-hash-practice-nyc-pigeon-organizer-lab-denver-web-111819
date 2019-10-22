@@ -4,6 +4,9 @@ def nyc_pigeon_organizer(data)
     details.each do |features, name|
       if pigeon_list[name] = nil 
         pigeon_list[name] = {}
-        pigeon_list
+      end
+      if pigeon_list[name][describers] = nil 
+        pigeon_list[name][describers] = []
     end
+    
 end
